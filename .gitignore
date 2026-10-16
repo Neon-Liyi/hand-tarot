@@ -1,0 +1,31 @@
+# ---- 本地与临时产物 ----
+__pycache__/
+*.py[cod]
+*.bak
+*.log
+startup_log.txt
+server_log.txt
+tunnel*.log
+
+# ---- 验收 / 调试脚本的产物（每次跑都变）----
+_*.json
+_*.js
+_*.txt
+F__*
+R__*
+V*.json
+V*.err
+V_*
+
+# ---- 分享与隧道（本机专属，不入库）----
+tools/
+*.exe
+public_url.txt
+tunnel_url.txt
+当前公网地址.txt
+*.url
+
+# ---- 系统垃圾 ----
+Thumbs.db
+desktop.ini
+.DS_Store
